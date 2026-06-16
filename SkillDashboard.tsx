@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { GAME_SKILLS, GAME_ACHIEVEMENTS } from '../constants';
+import { GAME_SKILLS, GAME_ACHIEVEMENTS } from './constants';
 
 const SkillDashboard: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
