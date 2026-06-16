@@ -30,6 +30,7 @@ import Ecograph from './Ecograph_Engine.png';
 import LogicLockdown from './LogicLockdown.png';
 import FounderPilot from './FounderPilot.png';
 import BuiltFI from './BuiltFI.png';
+import Learn from './LearnR.png';
 import Discipline from './DisciplineOM.png';
 import System from './SystemOS.png';
 import Think from './ThinkLT.png';
