@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { PERSONAL_INFO } from '../constants';
+import { PERSONAL_INFO } from './constants';
 
 const Contact: React.FC = () => {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
                 value={formState.name}
                 onChange={(e) => setFormState({...formState, name: e.target.value})}
                 className="w-full bg-[#0a0f1d] border border-white/5 rounded-xl px-5 py-4 text-slate-200 focus:outline-none focus:border-fuchsia-500 transition-all font-bold placeholder:text-slate-700"
-                placeholder="AGRIM GARG"
+                placeholder="Agrim Garg"
               />
             </div>
             <div>
