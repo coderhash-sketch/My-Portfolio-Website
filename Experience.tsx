@@ -1,5 +1,5 @@
 import React from 'react';
-import { EXPERIENCES } from '../constants';
+import { EXPERIENCES } from './constants';
 
 const Experience: React.FC = () => {
   return (
