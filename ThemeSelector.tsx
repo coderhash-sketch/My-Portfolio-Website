@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { THEMES } from '../constants';
-import { ThemeID } from '../types';
+import { THEMES } from './constants';
+import { ThemeID } from './types';
 
 interface ThemeSelectorProps {
   currentThemeId: ThemeID;
