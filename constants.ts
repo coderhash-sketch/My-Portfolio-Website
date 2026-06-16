@@ -299,7 +299,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     mindset: 'Eagle Mindset',
     icon: eagle,
     description: 'The ability to perceive macro-architectural shifts before diving into micro-optimization.',
-    detailedContent: 'Aligned with my work on AtomoraCQ, where I architected a hybrid AI-quantum pipeline. Like an eagle, I focus on the end-to-end impact—from quantum energy states to user-facing material selection dashboards—ensuring the high-level strategy guides every line of code.'
+    detailedContent: 'Aligned with my work on AeronicX, where I architected a hybrid AI-quantum pipeline. Like an eagle, I focus on the end-to-end impact—from quantum energy states to user-facing material selection dashboards—ensuring the high-level strategy guides every line of code.'
   },
   {
     id: 'lion',
