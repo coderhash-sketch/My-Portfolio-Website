@@ -1,5 +1,5 @@
 import React from 'react';
-import { ACHIEVEMENTS, CERTIFICATIONS } from '../constants';
+import { ACHIEVEMENTS, CERTIFICATIONS } from './constants';
 
 const Achievements: React.FC = () => {
   return (
