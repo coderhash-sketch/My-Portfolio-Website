@@ -1,5 +1,5 @@
 import React from 'react';
-import { PRINCIPLES } from '../constants';
+import { PRINCIPLES } from './constants';
 
 const Constitution: React.FC = () => {
   return (
