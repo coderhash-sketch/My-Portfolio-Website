@@ -1,5 +1,5 @@
 import React from 'react';
-import { PERSONAL_INFO, EDUCATION, SKILLS, EXPERIENCES, PROJECTS, CERTIFICATIONS, ACHIEVEMENTS } from '../constants';
+import { PERSONAL_INFO, EDUCATION, SKILLS, EXPERIENCES, PROJECTS, CERTIFICATIONS, ACHIEVEMENTS } from './constants';
 
 const ResumeView: React.FC = () => {
   return (
@@ -22,11 +22,13 @@ const ResumeView: React.FC = () => {
       <section className="mb-6">
         <h2 className="text-lg font-bold uppercase border-b border-slate-900 mb-2">Professional Summary</h2>
         <p className="text-[13px] leading-relaxed text-justify text-slate-800">
-          Computer Science undergraduate with strong proficiency in data structures, algorithms, and object-oriented 
-          programming, and hands-on experience building scalable, production-ready applications. Demonstrated ability to solve 
-          complex problems through innovative projects, clean system design, and performance-focused implementations, 
-          experienced in vibe coding. Experienced in leading technical initiatives and collaborating across teams, with a growth 
-          mindset and a strong drive to build reliable, high-impact software at scale.
+          Computer Science undergraduate with strog proficiency in data structures and algorithms , hands-on experience across various projects, including multiple real-world
+implementations translating ideas into deployable systems. I possess strong mental math abilities and a solid
+foundation in mathematics, with a deep interest in quantitative trading and research-driven problem solving. Actively
+exploring research in Artificial Intelligence and Machine Learning, focusing on intelligent systems that address real
+societal challenges at scale.Driven by curiosity and a long-term vision of building technology that contributes to
+high-impact innovation and research-driven development.
+
         </p>
       </section>
 
