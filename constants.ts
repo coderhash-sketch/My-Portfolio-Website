@@ -639,17 +639,22 @@ export const PROJECTS: Project[] = [
 export const ACHIEVEMENTS = [
   "5th Prize Global Winner: EnviroCast Hackathon - Recognized at the 'Global Engineering Outlook: Furthering the Future' event (Devpost) for building AtomoraCQ, a hybrid AI-Quantum solution addressing SDG-13: Climate Action.",
   "Achieved AIR 335 in AINCAT 2025 - A national-level aptitude test assessing aptitude skills among 4.6L+ participants.",
+  "1st Prize National Ideathon – Won among 200+ teams for innovation pitch.",
   "DSA Excellence - Recognized for exceptional performance in Data Structures and Algorithms assessments.",
   "SRM Maths Olympiad (UG Category) - Secured 3rd position demonstrating strong analytical and problem-solving skills."
+  "Top 20 AI4Good Fest – Recognized for AI healthcare triage innovation among 8000+ participants"
+  "Qualified NSEA Olympiad – Ranked among top 1% astronomy students nationwide"
 ];
 
 export const CERTIFICATIONS = [
+  "AlgoUniversity Tech Fellowship Merit Certificate ",
+  "MongoDB Associate Developer Certification",
+  "AlgoUniversity Dynamic Programming Camp ",
   "Salesforce 100K AgentBlazer Champion Course",
   "AI Volution Entrepreneurship Challenge Semi-Finalist by IIT Kharagpur",
   "Certified for completing Entrepreneurship Bootcamp 3.0, where I started my idea SkillSpresso.",
   "Generative AI Workshop at IIT Delhi(Speaker:Adarsh Rai)",
-  "be10X AI Tools Workshop by IIT Kharagpur Alumni",
-  "Deloitte Australia Job Simulation Course"
+  "be10X AI Tools Workshop by IIT Kharagpur Alumni"
 ];
 
 export const BLOG_POSTS: (BlogPost & { content: string })[] = [
