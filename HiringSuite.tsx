@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { NEXT_SKILL_OPTIONS } from '../constants';
+import { NEXT_SKILL_OPTIONS } from './constants';
 
 const HiringSuite: React.FC = () => {
   const [hasScrolledToBottom, setHasScrolledToBottom] = useState(false);
