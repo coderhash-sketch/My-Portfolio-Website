@@ -1,5 +1,5 @@
 import React from 'react';
-import { PERSONAL_INFO } from '../constants';
+import { PERSONAL_INFO } from './constants';
 
 const Hero: React.FC = () => {
   const initials = PERSONAL_INFO.name.split(' ').map(n => n[0]).join('');
