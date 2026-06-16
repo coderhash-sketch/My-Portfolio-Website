@@ -584,7 +584,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://checkfirst.lovable.app/",
     githubUrl: "https://github.com/tanvir-star-insta/checkfirst",
     date: "Mar 2026"
-}
+ },
 
   {
     id: "founderpilotai",
