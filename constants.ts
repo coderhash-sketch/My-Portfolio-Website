@@ -298,7 +298,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     id: 'eagle',
     title: 'Macro Strategic Vision',
     mindset: 'Eagle Mindset',
-    icon: '🦅',
+    icon: eagle,
     description: 'The ability to perceive macro-architectural shifts before diving into micro-optimization.',
     detailedContent: 'Aligned with my work on AtomoraCQ, where I architected a hybrid AI-quantum pipeline. Like an eagle, I focus on the end-to-end impact—from quantum energy states to user-facing material selection dashboards—ensuring the high-level strategy guides every line of code.'
   },
@@ -306,7 +306,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     id: 'lion',
     title: 'Technical Dominance',
     mindset: 'Lion Mindset',
-    icon: '🦁',
+    icon: lion,
     description: 'Commanding leadership through peak performance in core competitive competence.',
     detailedContent: 'Reflected in my AIR 335 in AINCAT 2025 and 9.82 CGPA. I approach engineering challenges with the "Lion Doctrine"—owning the problem space, dominating mathematical logic, and delivering solutions with high-precision authority in competitive environments.'
   },
@@ -314,7 +314,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     id: 'wolf',
     title: 'Collective Intelligence',
     mindset: 'Wolf Mindset',
-    icon: '🐺',
+    icon: wolf,
     description: 'Strength through collaboration and leading high-functioning technical packs.',
     detailedContent: 'As Convenor of the Math Club and CEO of the CESE Program, I foster "Wolf Pack" dynamics. I lead by coordinating diverse talents to achieve complex goals, whether it is organizing national-level technical events or leading community impact workshops.'
   },
@@ -322,7 +322,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     id: 'ant',
     title: 'Compound Persistence',
     mindset: 'Ant Mindset',
-    icon: '🐜',
+    icon: ant,
     description: 'Massive systems are built through relentless, disciplined, and automated execution.',
     detailedContent: 'Demonstrated through the development of SkillSpresso. I believe massive impact is the result of compounding small, disciplined efforts. I apply this to building robust codebases where every modular component contributes to a larger, unbreakable system.'
   },
@@ -330,7 +330,7 @@ export const MENTAL_FRAMEWORKS: Framework[] = [
     id: 'cheetah',
     title: 'High-Velocity Agility',
     mindset: 'Cheetah Mindset',
-    icon: '🐆',
+    icon: cheetah,
     description: 'Rapid adaptation and peak acceleration in development and problem solving.',
     detailedContent: 'My "vibe coding" philosophy and performance in timed challenges like Kaun Banega Ganitpati. I excel at rapid prototyping—transitioning from a conceptual problem to a functional, optimized solution at lightning speed without sacrificing technical rigor.'
   }
@@ -340,27 +340,27 @@ export const PRINCIPLES: Principle[] = [
   {
     title: "Think Long-Term",
     description: "Prioritize architectural scalability and code maintainability over quick, fragile fixes.",
-    icon: "🔭"
+    icon: Think
   },
   {
     title: "Systems Over Shortcuts",
     description: "Build robust frameworks and automated workflows to solve entire classes of problems.",
-    icon: "⚙️"
+    icon: System
   },
   {
     title: "Discipline Over Motivation",
     description: "Reliable, consistent execution drives progress when inspiration is absent.",
-    icon: "🛡️"
+    icon: Discipline
   },
   {
     title: "Build for Impact",
     description: "Focus energy on high-leverage features that create real value for users.",
-    icon: "🎯"
+    icon: BuiltFI
   },
   {
     title: "Learn Relentlessly",
     description: "Adapt to new paradigms and technologies to stay at the cutting edge of engineering.",
-    icon: "📚"
+    icon: Learn
   }
 ];
 
@@ -568,10 +568,24 @@ export const PROJECTS: Project[] = [
     solution: "Implemented the Variational Quantum Eigensolver (VQE) algorithm to estimate molecular energy states and support quantum-assisted evaluation of candidate materials.",
     techStack: ["TypeScript", "Next.js", "VQE", "ML"],
     impact: "Winner of 5th Prize at the EnviroCast Global Engineering Outlook Hackathon on Devpost for addressing SDG-13: Climate Action via hybrid AI-Quantum pipelines.",
-    imageUrl: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+    imageUrl: AeronicX,
     liveUrl: "https://atomoracq-cj63.vercel.app/",
     date: "Mar 2026"
   },
+  {
+    id: "checkfirst",
+    title: "CheckFirst",
+    tagline: "AI-Powered Medical Triage System",
+    problem: "People often struggle to determine the urgency of their symptoms, leading to delayed treatment or unnecessary hospital visits.",
+    solution: "CheckFirst uses AI-driven triage to assess symptoms, detect risk levels, and recommend appropriate medical actions in real time.",
+    techStack: ["Next.js", "React", "Tailwind CSS", "Node.js", "Supabase", "OpenAI API"],
+    impact: "Enables faster healthcare decision-making through accessible, intelligent, and preventive medical guidance.",
+    imageUrl: CheckFirst,
+    liveUrl: "https://checkfirst.lovable.app/",
+    githubUrl: "https://github.com/tanvir-star-insta/checkfirst",
+    date: "Mar 2026"
+}
+
   {
     id: "founderpilotai",
     title: "FounderPilotAI",
@@ -580,7 +594,7 @@ export const PROJECTS: Project[] = [
     solution: "Designed intelligent workflows to break down complex startup problems into actionable roadmaps, improving clarity and execution speed.",
     techStack: ["Node.js", "AI APIs", "Tailwind"],
     impact: "Integrated real-world startup thinking into AI prompts to simulate mentor-level guidance for founders.",
-    imageUrl: "https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80&w=800",
+    imageUrl: FounderPilot,
     liveUrl: "https://founder-pilot-ai-eta.vercel.app/",
     date: "Feb 2026"
   },
@@ -592,7 +606,7 @@ export const PROJECTS: Project[] = [
     solution: "An interactive, frontend-powered RCB Fan Portal that blends team stats, gamified features, customization tools, and immersive experiences into a single bold digital ecosystem.",
     impact: "Transforms passive supporters into deeply engaged digital fans, strengthening community, loyalty, and global reach for Royal Challengers Bengaluru.",
     techStack: ["Next.js", "Tailwind CSS", "Vercel", "API Integration"],
-    imageUrl: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&q=80&w=800",
+    imageUrl: RCB,
     liveUrl: "https://rcb-fanportal.vercel.app/",
     githubUrl: "https://github.com/coderhash-sketch/RCB-FanPortal",
     date: "Feb 2026"
@@ -605,35 +619,37 @@ export const PROJECTS: Project[] = [
     solution: "Logic Lockdown is a competitive digital escape experience that challenges participants with layered, logic-driven puzzles where reasoning is the only way forward.",
     impact: "It transforms passive knowledge testing into an immersive battle of minds, sharpening analytical thinking, composure, and decision-making under pressure.",
     techStack: ["React", "State Management", "Logic Algorithms", "Tailwind"],
-    imageUrl: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=800",
+    imageUrl: LogicLockdown,
     liveUrl: "https://logic-lockdown.vercel.app/",
     githubUrl: "https://github.com/coderhash-sketch/LOGIC-LOCKDOWN",
     date: "Jan 2026"
   },
   {
-    id: "skillspresso",
-    title: "SkillSpresso",
-    tagline: "Microlearning Platform | Founder & CEO",
-    problem: "Founding and leading SkillSpresso, a 10-minute microlearning platform teaching practical skills like Excel, Canva, and Finance.",
-    solution: "Designing curriculum and content strategy to deliver bite-sized, high-impact learning experiences for students and professionals.",
-    techStack: ["Microlearning", "EdTech", "Curriculum Design"],
-    impact: "Driving user acquisition and engagement through innovative product features and community-building initiatives.",
-    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://skill-sprinter--agrimgarganuj.replit.app/",
-    date: "2024 - Present"
+    id: "aurora-ai",
+    title: "AURORA",
+    tagline: "Autonomous Unified Resilience & Orchestrated Response AI",
+    problem: "Healthcare systems collapse during disasters due to delayed coordination, ICU overload, and critical blood shortages.",
+    solution: "AURORA is an AI-driven crisis intelligence platform that predicts overload, optimizes emergency response, and prevents resource depletion before collapse occurs.",
+    techStack: ["Built using React/Next.js, FastAPI, PostgreSQL, and AI-based forecasting and optimization models with a modular, API-first architecture."],
+    impact: "Transforms reactive disaster response into predictive, survival-optimized coordination, reducing mortality risk during health emergencies.",
+    imageUrl: AURORA,
+    liveUrl: "https://aurora-eight-mu.vercel.app/",
+    githubUrl: "https://github.com/coderhash-sketch/AURORA",
+    date: "Feb 2026"
   },
   {
-    id: "kb-ganitpati",
-    title: "Kaun Banega Ganitpati",
-    tagline: "Mathematical Game Platform",
-    problem: "It is a web-based quiz application that allows students to attempt up to 20 questions within a fixed time limit of 100 seconds.",
-    solution: "The project showcases skills in algorithm design, user-centric application development, and mathematical concept implementation through gamification.",
-    techStack: ["JavaScript", "HTML5", "Game Logic"],
-    impact: "Created an engaging competitive environment for learning math concepts.",
-    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800",
-    githubUrl: "https://github.com/coderhash-sketch/kb-ganitpati",
-    date: "Aug 2025"
-  }
+    id: "celebrity hunt",
+    title: "EcoGraph Engine",
+    tagline: "PathToCall AI - A Human Network Pathfinding Engine",
+    problem: "Access to influential people is opaque and privilege-driven, making meaningful connections inefficient and largely inaccessible.",
+    solution: "EcoGraph Engine uses AI to map relationship ecosystems and identify the shortest, most credible path to reach a public figure.",
+    techStack: ["Next.js, React, Tailwind, Node.js, Supabase (PostgreSQL), OpenAI API, and graph visualization libraries (React Flow/D3)"],
+    impact: "Democratizes access to influence by replacing blind outreach with strategic, ethical, high-probability connection building..",
+    imageUrl: EcoGraph,
+    liveUrl: "https://ecograph-engine.vercel.app/",
+    githubUrl: "https://github.com/coderhash-sketch/Ecograph-Engine",
+    date: "Feb 2026"
+  },
 ];
 
 export const ACHIEVEMENTS = [
@@ -641,9 +657,9 @@ export const ACHIEVEMENTS = [
   "Achieved AIR 335 in AINCAT 2025 - A national-level aptitude test assessing aptitude skills among 4.6L+ participants.",
   "1st Prize National Ideathon – Won among 200+ teams for innovation pitch.",
   "DSA Excellence - Recognized for exceptional performance in Data Structures and Algorithms assessments.",
-  "SRM Maths Olympiad (UG Category) - Secured 3rd position demonstrating strong analytical and problem-solving skills."
-  "Top 20 AI4Good Fest – Recognized for AI healthcare triage innovation among 8000+ participants"
-  "Qualified NSEA Olympiad – Ranked among top 1% astronomy students nationwide"
+  "SRM Maths Olympiad (UG Category) - Secured 3rd position demonstrating strong analytical and problem-solving skills.",
+  "Top 20 AI4Good Fest – Recognized for AI healthcare triage innovation among 8000+ participants.",
+  "Qualified NSEA Olympiad – Ranked among top 1% astronomy students nationwide."
 ];
 
 export const CERTIFICATIONS = [
