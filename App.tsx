@@ -282,7 +282,6 @@ const App: React.FC = () => {
       </footer>
 
       <Navbar activeSection={activeSection} />
-      <AIChatbot />
 
       <style>{`
         @media print {
