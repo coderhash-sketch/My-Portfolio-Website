@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { getAIResponse } from '../geminiService';
-import { PERSONAL_INFO } from '../constants';
+import { getAIResponse } from './geminiService';
+import { PERSONAL_INFO } from './constants';
 
 interface Message {
   text: string;
