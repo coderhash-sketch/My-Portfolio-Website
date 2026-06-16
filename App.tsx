@@ -1,23 +1,22 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
-import Education from './components/Education';
-import Achievements from './components/Achievements';
-import ResumeView from './components/ResumeView';
-import SkillDashboard from './components/SkillDashboard';
-import Constitution from './components/Constitution';
-import HiringSuite from './components/HiringSuite';
-import ThemeSelector from './components/ThemeSelector';
-import AIChatbot from './components/AIChatbot';
-import ImpactMap from './components/ImpactMap';
-import MentalFrameworks from './components/MentalFrameworks';
-import InterviewSimulator from './components/InterviewSimulator';
-import EndCredits from './components/EndCredits';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Projects from './Projects';
+import Skills from './Skills';
+import Experience from './Experience';
+import Blog from './Blog';
+import Contact from './Contact';
+import Education from './Education';
+import Achievements from './Achievements';
+import ResumeView from './ResumeView';
+import SkillDashboard from './SkillDashboard';
+import Constitution from './Constitution';
+import HiringSuite from './HiringSuite';
+import ThemeSelector from './ThemeSelector';
+import ImpactMap from './ImpactMap';
+import MentalFrameworks from './MentalFrameworks';
+import InterviewSimulator from './InterviewSimulator';
+import EndCredits from './EndCredits';
 import { PERSONAL_INFO, THEMES } from './constants';
 import { ThemeID } from './types';
 
@@ -197,7 +196,7 @@ const App: React.FC = () => {
                     className="relative z-[100] w-full md:w-auto px-12 py-5 bg-rainbow-gradient text-slate-950 font-black rounded-2xl transition-all flex items-center justify-center gap-4 shadow-[0_10px_40px_var(--glow)] hover:scale-105 active:scale-95 cursor-pointer pointer-events-auto"
                   >
                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
-                    <span>PREVIEW RESUME</span>
+                    <span>RESUME</span>
                   </button>
                 </div>
               </div>
@@ -280,8 +279,6 @@ const App: React.FC = () => {
           #root > main, 
           #root > nav, 
           #root > footer, 
-          #root > .chatbot-container, 
-          #chatbot-root, 
           .fixed:not(.print\\:block) { 
             display: none !important; 
           }
