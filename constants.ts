@@ -46,8 +46,8 @@ export const INTERVIEW_QUESTIONS: InterviewQuestion[] = [
     id: "q4",
     category: "Proud Project",
     question: "Explain a project you're most proud of and the technical challenges you faced.",
-    answerSummary: ["AtomoraCQ: Hybrid AI-Quantum Pipeline", "Implementation of VQE algorithm", "Global Winner (EnviroCast Hackathon)"],
-    answerDetail: "AtomoraCQ is my hallmark project. The challenge was simulating molecular energy states for carbon capture—a task classical computers struggle with. I implemented a Variational Quantum Eigensolver (VQE) and integrated it with a Next.js frontend. Bridging quantum physics logic with modern web architecture was complex, but it resulted in a 5th Prize win globally at the EnviroCast Hackathon."
+    answerSummary: ["AeronicX: Hybrid AI-Quantum Pipeline", "Implementation of VQE algorithm", "Global Winner (EnviroCast Hackathon)"],
+    answerDetail: "AeronicX is my hallmark project. The challenge was simulating molecular energy states for carbon capture—a task classical computers struggle with. I implemented a Variational Quantum Eigensolver (VQE) and integrated it with a Next.js frontend. Bridging quantum physics logic with modern web architecture was complex, but it resulted in a 5th Prize win globally at the EnviroCast Hackathon."
   },
   {
     id: "q5",
@@ -425,7 +425,7 @@ export const EDUCATION = [
     institution: "SRM University AP",
     degree: "B.Tech in CSE",
     period: "2024 - present",
-    grade: "CGPA: 9.82/10.00"
+    grade: "CGPA: 9.81/10.00"
   },
   {
     institution: "Green Valley International School",
@@ -465,21 +465,40 @@ export const SKILLS: SkillCategory[] = [
   {
     name: "Core Competencies",
     skills: [
-      { name: "AI/ML", level: 85 },
+      { name: "Artificial Intelligence", level: 85 },
       { name: "Problem Solving", level: 98 },
       { name: "Fast Calculations", level: 95 },
       { name: "Logical Thinking", level: 95 },
       { name: "Quantitative Aptitude", level: 92 },
-      { name: "Power BI", level: 75 }
+      { name: "Machine Learning", level: 75 }
     ]
   }
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
+    company: "NighaTech Global Pvt. Limited",
+    role: "Software Development Engineer Intern",
+    period: "May 2026 - Present",
+    description: [
+      "Working on the development of full-stack and IoT-based applications, contributing to role-based dashboard systems, REST API development, database design, and real-time device monitoring solutions.",
+      "Collaborating on system architecture, authentication workflows, data visualization, debugging, testing, and deployment while following agile development practices and industry-standard software engineering methodologies."
+    ],
+    skills: ["MERN Stack", "Systems Design", "Hybrid Intern", "Problem Solving", "Internet of Things(IoT)"]
+  },
+  {
+    company: "SRM University AP",
+    role: "Quantum Computing Research Intern",
+    period: "Jun 2026 - Present",
+    description: [
+      "Engaging in cutting-edge quantum computing research, investigating quantum algorithms and computational frameworks to address complex computational challenges. Contributed to research studies, technical analysis, and the exploration of next-generation quantum technologies."
+    ],
+    skills: ["Quantum Computing", "Hybrid Intern", "Linear Algebra", "QML" , "Qubits"]
+  },
+  {
     company: "ShadowFox",
     role: "Web Development Intern",
-    period: "Feb 2026 - Present",
+    period: "Feb 2026 - Mar2026",
     description: [
       "Working on real-world web development projects using modern frontend technologies while following industry best practices.",
       "Collaborating in a virtual team environment and participating in domain meetings, code reviews and enhancing problem solving skills."
@@ -489,27 +508,27 @@ export const EXPERIENCES: Experience[] = [
   {
     company: "Math Club",
     role: "Convenor",
-    period: "May 2025 - Present",
+    period: "Nov 2025 - May2026",
     description: [
       "Responsible for organizing academic events, workshops, and interactive mathematical activities.",
       "It includes a recent interactive session showcasing mathematical magic tricks to make numbers fun and fascinating for young learners."
     ],
-    skills: ["SRM University AP", "Leadership", "Event Strategy"]
+    skills: ["SRM University AP", "Leadership", "Event Strategy", "Mathematics"]
   },
   {
     company: "GeeksforGeeks SRMUAP",
-    role: "Events Lead",
+    role: "Events Co-head",
     period: "Oct 2024 - Present",
     description: [
       "Organizing technical events, coding competitions, and workshops to enhance student engagement in competitive programming.",
       "Coordinating with industry experts and mentors to deliver high-quality educational content and career development sessions."
     ],
-    skills: ["Amaravati, India", "Competitive Programming", "Technical Events"]
+    skills: [ "Competitive Programming", "Technical Events"]
   },
   {
     company: "Amdox Technologies",
-    role: "Web Developer",
-    period: "Jan 2025 - Present",
+    role: "Full Stack Developer",
+    period: "Jan2026 - Apr2026",
     description: [
       "Developed responsive and interactive web interfaces using modern JavaScript frameworks and optimized CSS architectures.",
       "Improved site performance and accessibility scores by implementing lazy loading and semantic HTML structures.",
@@ -542,16 +561,16 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: "atomoracq",
-    title: "AtomoraCQ",
+    id: "aeronicx",
+    title: "AeronicX",
     tagline: "TypeScript, Next.js, Quantum Computing - VQE, ML, SDG-13",
     problem: "Developed a hybrid AI-quantum simulation platform to model CO2-material interactions at the atomic scale for advanced carbon-capture research.",
     solution: "Implemented the Variational Quantum Eigensolver (VQE) algorithm to estimate molecular energy states and support quantum-assisted evaluation of candidate materials.",
     techStack: ["TypeScript", "Next.js", "VQE", "ML"],
     impact: "Winner of 5th Prize at the EnviroCast Global Engineering Outlook Hackathon on Devpost for addressing SDG-13: Climate Action via hybrid AI-Quantum pipelines.",
     imageUrl: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://demo-gold-three-67.vercel.app/",
-    date: "Jan 2026"
+    liveUrl: "https://atomoracq-cj63.vercel.app/",
+    date: "Mar 2026"
   },
   {
     id: "founderpilotai",
