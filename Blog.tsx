@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { BLOG_POSTS } from '../constants';
+import { BLOG_POSTS } from './constants';
 
 const Blog: React.FC = () => {
   const [selectedPost, setSelectedPost] = useState<typeof BLOG_POSTS[0] | null>(null);
