@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { IMPACT_MARKERS } from '../constants';
-import { ImpactMarker } from '../types';
+import { IMPACT_MARKERS } from './constants';
+import { ImpactMarker } from './types';
 
 const ImpactMap: React.FC = () => {
   const [activeMarker, setActiveMarker] = useState<ImpactMarker | null>(null);
