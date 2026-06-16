@@ -1,5 +1,5 @@
 import React from 'react';
-import { EDUCATION } from '../constants';
+import { EDUCATION } from './constants';
 
 const Education: React.FC = () => {
   return (
