@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { PERSONAL_INFO } from '../constants';
+import { PERSONAL_INFO } from './constants';
 
 const EndCredits: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
