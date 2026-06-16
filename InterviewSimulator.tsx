@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { INTERVIEW_QUESTIONS } from '../constants';
+import { INTERVIEW_QUESTIONS } from './constants';
 
 const InterviewSimulator: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
