@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MENTAL_FRAMEWORKS } from '../constants';
-import { Framework } from '../types';
+import { MENTAL_FRAMEWORKS } from './constants';
+import { Framework } from './types';
 
 const MentalFrameworks: React.FC = () => {
   const [selectedFramework, setSelectedFramework] = useState<Framework | null>(null);
