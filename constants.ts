@@ -3,7 +3,7 @@ import { Project, Experience, SkillCategory, BlogPost, GameSkill, Achievement, P
 export const PERSONAL_INFO = {
   name: "Agrim Garg",
   role: "Software Engineer",
-  profilePicture: "profile.jpg", 
+  profilePicture: "profilePicture.jpeg", 
   tagline: "Building scalable AI-driven solutions and high-impact software.",
   summary: "Computer Science undergraduate with strong proficiency in data structures, algorithms, and object-oriented programming, and hands-on experience building scalable, production-ready applications. Demonstrated ability to solve complex problems through innovative projects, clean system design, and performance-focused implementations, experienced in vibe coding. Experienced in leading technical initiatives and collaborating across teams, with a growth mindset and a strong drive to build reliable, high-impact software at scale.",
   impactStatement: "Passionate about leadership, mathematical rigor, and rapid, high-precision problem solving. Building scalable digital systems and intelligent products through disciplined execution.",
